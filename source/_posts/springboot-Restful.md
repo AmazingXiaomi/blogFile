@@ -66,16 +66,16 @@ $ 打开postman进行测试
 
 * get请求
 
-![img](/css/images/get123.png)
+![img](https://raw.githubusercontent.com/AmazingXiaomi/image/master/get123.png)
 *  POST请求
 
-![img](/css/images/post123.png)
+![img](https://raw.githubusercontent.com/AmazingXiaomi/image/master/post123.png)
 *  PUSH请求
 
-![img](/css/images/push123.png)
+![img](https://raw.githubusercontent.com/AmazingXiaomi/image/master/push123.png)
 *  DELETE请求
 
-![img](/css/images/delete123.png)
+![img](https://raw.githubusercontent.com/AmazingXiaomi/image/master/delete123.png)
 
 * * *
 

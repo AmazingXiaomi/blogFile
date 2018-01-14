@@ -96,8 +96,8 @@ spring.dubbo.scan=com.xiaomi.springboot.dubbo
 ```
 分别加入上面的dubbo依赖和配置文件。具体代码见下面几张图，
 
-![img](/css/images/dubboClient.png)
-![img](/css/images/dubboServer.png)
+![img](https://raw.githubusercontent.com/AmazingXiaomi/image/master/dubboClient.png)
+![img](https://raw.githubusercontent.com/AmazingXiaomi/image/master/dubboServer.png)
 
 
 CityDubboService类
@@ -295,6 +295,6 @@ public class ClientApplication {
 
 可以看到如下结果
 
-![img](/css/images/dubboResult.png)
+![img](https://raw.githubusercontent.com/AmazingXiaomi/image/master/dubboResult.png)
 
 大功告成！！！
