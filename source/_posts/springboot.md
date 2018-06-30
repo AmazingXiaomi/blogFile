@@ -1,6 +1,7 @@
 ---
 title:  springboot入门
 date: 2017-08-14 22:43:32
+description: 'springboot能够便捷的创建spring项目，减少了很多配置。下面有两种创建方式'
 tags: springboot
 ---
 

@@ -2,6 +2,7 @@
 title: Restful学习
 date: 2017-11-6 22:43:32
 tags: springboot
+description: 'Springboot 实现 Restful 服务，基于 HTTP / JSON 传输。'
 ---
 
 # Springboot 实现 Restful 服务，基于 HTTP / JSON 传输

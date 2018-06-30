@@ -2,6 +2,7 @@
 title: springboot与dubbo整合
 date: 2017-11-8 22:43:32
 tags: springboot
+description: '这里配置的是单机模式下的zookeeper，如果搭建的是分布式的服务器的话还可以搭建集群模式。'
 ---
 
 

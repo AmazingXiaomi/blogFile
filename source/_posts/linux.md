@@ -1,6 +1,7 @@
 ---
 title: linux用户、组学习
 date: 2018-01-14 22:43:32
+description: 'linux常用建立用户分配权限'
 tags: linux
 ---
 
@@ -11,16 +12,16 @@ tags: linux
 ```bash
  新建用户
 ```
-*   <code>useradd xiaomi</code>
+   <code>useradd xiaomi</code>
 
  ```bash
   修改密码
  ```
-*  <code> passwd xiaomi</code>    
+  <code> passwd xiaomi</code>    
 
 
  或者  
-*  <code>useradd  -n  xiaomi   -p  xiaomi</code>
+  <code>useradd  -n  xiaomi   -p  xiaomi</code>
 
  ```bash
   将文件私有化
@@ -28,26 +29,26 @@ tags: linux
  
  首先创建文件
  
-*  <code>mkdir /usr/local/xiaomi</code>
+  <code>mkdir /usr/local/xiaomi</code>
 
 将所有权赋给 xiaomi用户
 
-* <code>chown  xiaomi  /usr/local/xiaomi /code> 
+ <code>chown  xiaomi  /usr/local/xiaomi /code> 
 
 修改文件权限
 
-* <code>chmod 700  /usr/local/xiaomi</code>
+ <code>chmod 700  /usr/local/xiaomi</code>
  *700代表的是读写权限，也可以用
  chmod   a-rwx  /usr/local/xiaomi和  u+rwx  /usr/local/xiaomi实现独享*
  
   ``` bash
    添加组
   ```
- * <code>groupadd xiaomi</code>
+ <code>groupadd xiaomi</code>
  
  添加组成员
  
-  * <code>useradd  -g  xiaomi  -n   xiaomi</code>
+   <code>useradd  -g  xiaomi  -n   xiaomi</code>
   
   
   小例子

@@ -2,6 +2,7 @@
 title: springboot与mybatis整合
 date: 2017-10-30 22:43:32
 tags: springboot
+description: 'Springboot 相关，一方面和大家交流交流 Springboot 框架。'
 ---
 
 # springboot与mybatis整合

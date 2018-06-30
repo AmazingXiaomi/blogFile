@@ -1,6 +1,7 @@
 ---
 title: select2 
 date: 2017-11-6 22:43:32
+description: 'select2 实现可搜索下拉框查询。[select2官网地址](https://select2.org/)：https://select2.org/'
 tags: js
 ---
 

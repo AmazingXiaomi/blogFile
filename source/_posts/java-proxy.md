@@ -1,6 +1,7 @@
 ---
 title:  java动态代理学习
 date: 2018-01-11 13:27:32
+description: 'java代理模式学习'
 tags: java
 ---
 

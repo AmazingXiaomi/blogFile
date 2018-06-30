@@ -4,7 +4,7 @@
 
 # Site
 title: 小米的博客
-subtitle: 欢迎访问！
+subtitle: 把烦恼痛了吞了认了算了,不对别人讲,谁还没有辜负几段 昂贵的时光！
 description:
 author: 小米
 language: zh-Hans
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cyanstyle
+theme: yelee
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
