@@ -2,6 +2,8 @@
     <%- js('js/GithubRepoWidget') %>
 <% } %>
 <script data-main="<%-config.root%>js/main.js" src="<%- theme.CDN.require %>"></script>
+<script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+
 <%- partial('_partial/background') %>
 <%- partial('comments/count-comment') %>
 <%- partial('google-analytics') %>
@@ -13,5 +15,4 @@
         global: theme.open_in_new.global
     }) %>
 <%- partial('tab-title-change') %>
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
