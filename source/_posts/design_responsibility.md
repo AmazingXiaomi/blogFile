@@ -13,7 +13,7 @@ tags: java设计模式
   
    这种设计模式是为了避免请求的发送者和接收者之间的耦合关系，而责任链就是中间的请求处理者，其中可能包括多个有可能处理请求的对象，并将这些对象炼成一条链。这样也使得请求发送者无需关心请求的处理细节和请求的传递。
    
-   ![img](https://upload-images.jianshu.io/upload_images/595349-eea9ef31f92adee2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700/format/webp)
+   ![img](https://raw.githubusercontent.com/AmazingXiaomi/image/master/595349-eea9ef31f92adee2.webp)
    - Client：客户端，请求的发起者
    - Handler：抽象处理者，声明一个请求方法，并在其中保持一个对下一个处理节点Handler对象的引用
    - ConcreteHandler：具体处理角色，对请求进行处理；如果不能处理则将请求转发给下一个节点对象处理
