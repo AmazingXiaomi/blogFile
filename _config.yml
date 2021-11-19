@@ -42,7 +42,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -51,7 +51,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -77,8 +77,10 @@ pagination_dir: page
 theme: yelee
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/AmazingXiaomi/AmazingXiaomi.github.io.git
+  repo: https://github.com/AmazingXiaomi/AmazingXiaomi.github.io.git
   branch: master
+  message: gengxin1
+  toekn: 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
